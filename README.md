@@ -1,4 +1,4 @@
-# AI Chat Assistant Builder
+# llama.cpp helper
 
 This repository contains a simple and effective llama.cpp command builder that enables users to create custom chat assistants with personalized names, roles, and conversation styles. The project is written in C and Bash, and it uses the llama.cpp repo as the backbone for generating responses.
 
