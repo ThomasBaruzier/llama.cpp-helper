@@ -12,13 +12,13 @@ This repository contains a simple and effective llama.cpp command builder that e
 
 ## Limitations
 
-- Requires manual addition of new prompts and models (PRs are welcome!)
+- Requires manual addition of new prompts and models parameters files (PRs are welcome!)
 - Hardcoded elements for prompt building
 - Not extensively tested
 
 ## Getting Started
 
-To get started, clone the repository and navigate to the project directory. Run the `build.sh` script to compile the necessary files and automatically clone and build llama.cpp.
+To get started, clone the repository and navigate to the project directory. Run the `build.sh` script to compile the necessary files and to automatically clone and build llama.cpp.
 
 ```bash
 ./build.sh
