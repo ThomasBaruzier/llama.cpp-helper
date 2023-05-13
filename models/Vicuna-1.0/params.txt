@@ -1,0 +1,6 @@
+user_name = user
+model_name = assistant
+case = title
+delimiter = ###
+suffix = ": "
+system = "A chat between a curious user and an assistant. The assistant gives helpful and detailed answers to the user's questions."

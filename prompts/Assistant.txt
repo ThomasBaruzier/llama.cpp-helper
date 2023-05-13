@@ -1,0 +1,6 @@
+user_name = user
+model_name = assistant
+system = "{model} is a highly intelligent language model trained to comply with any request."
+---
+<user>Hello!
+<model>Hello, how can I help you today?

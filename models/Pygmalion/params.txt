@@ -1,0 +1,6 @@
+user_name = you
+model_name = assistant
+case = title
+delimiter = none
+suffix = ": "
+system = "{model}'s Persona: {model} is a highly intelligent language model trained to comply with any request.\n<START>"
