@@ -7,7 +7,7 @@
 
 #define MAX_PATH_LEN 256
 #define MAX_FILES 256
-#define MAX_VALUE_LEN 256
+#define MAX_VALUE_LEN 8192
 #define MAX_LINE_LEN 8192
 
 typedef struct {
@@ -373,7 +373,7 @@ int main(void) {
         prefix[spaces_removed] = '\0';
     }
 
-    sprintf(command, "./src/main --model \"%s\" --prompt \"%s\" --reverse-prompt \"%s\" --in-suffix \"%s\" --in-prefix \"%s\" --interactive-first --threads 4 --n_predict -1 --repeat_last_n 256 --ctx_size 2048 --color",
+    sprintf(command, "./src/main --model \"%s\" --prompt \"%s\" --reverse-prompt \"%s\" --in-suffix \"%s\" --in-prefix \"%s\" --interactive-first --threads 4 --n_predict -1 --repeat_last_n 256 --ctx_size 2048 --color --no-mmap",
             model_file_path, full_prompt, stop, suffix, prefix);
 
     char *final_command = replace_escape_sequences(command);
