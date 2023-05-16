@@ -1,0 +1,6 @@
+user_name = instruction
+model_name = response
+case = title
+delimiter = \n###
+suffix = :\n
+system = "Below is an instruction that describes a task. Write a response that appropriately completes the request."
