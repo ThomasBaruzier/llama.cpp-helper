@@ -11,7 +11,7 @@ update() {
   if [ ! -x main ]; then
     git pull || echo "Warning : Failed to pull latest update."
     echo "No executable found. Building."
-    sbuild; return
+    build; return
   fi
   if [ "$1" = update ]; then
     echo "Checking for updates..."
